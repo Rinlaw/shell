@@ -1,0 +1,21 @@
+mkdir test0
+mkdir test2
+echo "aaaa" >> test1
+echo "a" >> test3
+echo "aa" >> test4
+echo "a" >> test5
+ln -s test0 test6
+chmod 715 test0
+chmod 714 test1
+chmod 544 test2
+chmod 404 test3
+chmod 641 test4
+chmod 404 test5
+touch -t 202506012047.00 test0
+touch -t 202506012146.00 test1
+touch -t 202506012245.00 test2
+touch -t 202506012344.00 test3
+touch -t 202506012343.00 test4
+touch -t 202506012344.00 test5
+
+
